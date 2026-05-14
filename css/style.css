@@ -40,7 +40,6 @@ body {
   font-weight: 400;
   color: #6b5b4e;
   letter-spacing: 0.02em;
-  font-style: italic;
   z-index: 2;
   line-height: 1.5;
 }
@@ -64,40 +63,58 @@ body {
   width: 100%;
   z-index: 3;
   border-radius: 12px;
-  will-change: transform;
 }
 
 .boxLTR {
-  left: 0;
   background: linear-gradient(90deg, #e8ddd2 0%, #ddd0c4 50%, rgba(221, 208, 196, 0) 100%);
   animation: boxxLTR 7s linear infinite;
 }
 
 .boxRTL {
-  right: 0;
   background: linear-gradient(270deg, #e8ddd2 0%, #ddd0c4 50%, rgba(221, 208, 196, 0) 100%);
   animation: boxxRTL 7s linear infinite;
 }
 
 @keyframes boxxLTR {
-  0%    { transform: translateX(-112%); }
-  5%    { transform: translateX(0%); }
-  90%   { transform: translateX(112%); }
-  100%  { transform: translateX(112%); }
+  0%  { 
+    transform: translateX(-112%); 
+  }
+  5%  { 
+    transform: translateX(0%); 
+  }
+  90% { 
+    transform: translateX(112%); 
+  }
+  100% {
+     transform: translateX(112%); 
+    }
 }
 
 @keyframes boxxRTL {
-  0%    { transform: translateX(112%); }
-  5%    { transform: translateX(0%); }
-  90%   { transform: translateX(-112%); }
-  100%  { transform: translateX(-112%); }
+  0%  { 
+    transform: translateX(112%); 
+  }
+  5%  { 
+    transform: translateX(0%); 
+  }
+  90% { 
+    transform: translateX(-112%); 
+  }
+  100% {
+     transform: translateX(-112%); 
+  }
 }
 
-.card2 .movingBox { animation-delay: 1s; }
-.card3 .movingBox { animation-delay: 2s; }
-.card4 .movingBox { animation-delay: 3s; }
-.card5 .movingBox { animation-delay: 4s; }
-.card6 .movingBox { animation-delay: 5s; }
+.card2 .movingBox { 
+  animation-delay: 1s; }
+.card3 .movingBox { 
+  animation-delay: 2s; }
+.card4 .movingBox { 
+  animation-delay: 3s; }
+.card5 .movingBox { 
+  animation-delay: 4s; }
+.card6 .movingBox { 
+  animation-delay: 5s; }
 
 .dot {
   position: absolute;
@@ -112,4 +129,3 @@ body {
 
 .dotLeft  { left: 12px; }
 .dotRight { right: 12px; }
-
