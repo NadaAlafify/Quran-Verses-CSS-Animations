@@ -1,7 +1,7 @@
 # Quran Verses - Custom CSS Animations
 
 ## Description
-This project is a minimalist, single-page web interface designed to showcase bilingual Quranic verses (Arabic text with English translations). The core technical challenge of this task focused on mastering web typography, layout distribution, and custom CSS animations to achieve fluid visual transitions without relying on JavaScript animation libraries.
+This project is a minimalist, single-page web interface designed to showcase bilingual Quranic verses (Arabic and English). The core technical challenge of this task focused on mastering web typography, layout distribution, and custom CSS animations to achieve fluid visual transitions without relying on JavaScript animation libraries.
 
 ## Live Demo
 Explore the live web application here: (https://nadaalafify.github.io/Quran-Verses-CSS-Animations/)
